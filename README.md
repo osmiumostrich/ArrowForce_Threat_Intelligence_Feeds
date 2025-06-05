@@ -12,6 +12,7 @@ This feed is designed to be **used directly by FortiGate firewalls** via the Ext
 - `README.md` — documentation and setup guide (this file)
 - `domainsblacklist.txt` - the list of domains to block (one per line)
 
+-- 📑 Link to how to guide! 🔗 https://github.com/osmiumostrich/ArrowForce_Threat_Intelligence_Feeds/blob/main/HowTo.md
 
 ## 🌐 Feed URLs
 
