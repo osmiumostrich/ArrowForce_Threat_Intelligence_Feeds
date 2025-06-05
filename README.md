@@ -25,4 +25,4 @@ This feed is designed to be **used directly by FortiGate firewalls** via the Ext
 
 ## 🌐 Feed URL (for FortiGate)
 
-> ⚠️ Replace with your actual raw file URL once uploaded to GitHub:
+> ⚠️ https://github.com/osmiumostrich/ArrowForce_Threat_Intelligence_Feeds/blob/main/blacklist.txt
