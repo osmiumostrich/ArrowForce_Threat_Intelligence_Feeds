@@ -1,1 +1,13 @@
+# Custom Threat Intelligence Feed
+# Format: One entry per line (IP)
+# Last updated: 2025-06-05 12:00 CST
+# Entries below are automatically parsed by FortiGate
+
+# Malicious Domains
+
+recipelister.com
+www.recipelister.com
+ahegazedatthewond.org
+manahegazeda.org
+sappointedmanah.org
 
