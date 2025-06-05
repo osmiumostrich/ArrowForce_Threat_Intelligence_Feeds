@@ -1,5 +1,5 @@
 ## NOTE: this process is practically the same for blocking bad domain names,
-just replace blacklist.txt with domainsblacklist.txt when configuring the threat intelligence feed, and create a 'domain' feed, istead of 'IP'.
+just replace blacklist.txt with domainsblacklist.txt (`and IMPORTANT: URLs!`) when configuring the threat intelligence feed, and create a 'domain' feed, istead of 'IP'.
 Also, be sure to add the feed you've created for domains to your DNS filter/policies 😊
 
 ## 🔧 How to Configure in FortiGate (Step-by-Step)
