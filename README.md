@@ -4,7 +4,7 @@ Welcome to your custom threat feed! This repository hosts plain text files (`bla
 
 This feed is designed to be **used directly by FortiGate firewalls** via the External Threat Feed feature. Once configured, FortiGate will **pull the file on a regular interval** and automatically block traffic to any destination listed in the feed.
 ---
-📑 Link to how to guide! 🔗 https://github.com/osmiumostrich/ArrowForce_Threat_Intelligence_Feeds/blob/main/HowTo.md
+📑 Link to how to guide! 🔗 https://github.com/osmiumostrich/Threat_Intelligence_Feeds/blob/main/HowTo.md
 ---
 
 ## 📄 Contents
@@ -15,5 +15,5 @@ This feed is designed to be **used directly by FortiGate firewalls** via the Ext
 
 ## 🌐 Feed URLs
 
-## 🔗 https://github.com/osmiumostrich/ArrowForce_Threat_Intelligence_Feeds/blob/main/blacklist.txt
-## 🔗 https://github.com/osmiumostrich/ArrowForce_Threat_Intelligence_Feeds/blob/main/domainsblacklist.txt
+## 🔗 https://github.com/osmiumostrich/Threat_Intelligence_Feeds/blob/main/blacklist.txt
+## 🔗 https://github.com/osmiumostrich/Threat_Intelligence_Feeds/blob/main/domainsblacklist.txt
