@@ -1,1 +1,8 @@
+# Custom Threat Intelligence Feed
+# Format: One entry per line (IP, domain, or URL)
+# Last updated: 2025-06-05 12:00 CST
+# Entries below are automatically parsed by FortiGate
 
+# Malicious IPs
+172.67.150.5 #  RecipeLister.exe: This file is most commonly found at the following location: C:\Users\<USERNAME>\Downloads
+104.21.57.122 # RecipeLister.exe: it's advised to block port 5353 mDNS https://isc.sans.edu/diary/30358
