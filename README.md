@@ -1,6 +1,6 @@
 # 🛡️ Custom Threat Intelligence Feed for FortiGate
 
-Welcome to your custom threat feed! This repository hosts a plain text file (`blacklist.txt`) & (`domainsblacklist.txt`) containing malicious IP addresses, and domain names that you want to block at your firewall.
+Welcome to your custom threat feed! This repository hosts plain text files (`blacklist.txt`) & (`domainsblacklist.txt`) containing malicious IP addresses, and domain names that you want to block at your firewall.
 
 This feed is designed to be **used directly by FortiGate firewalls** via the External Threat Feed feature. Once configured, FortiGate will **pull the file on a regular interval** and automatically block traffic to any destination listed in the feed.
 
