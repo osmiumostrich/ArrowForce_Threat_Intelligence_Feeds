@@ -1,5 +1,5 @@
 # Custom Threat Intelligence Feed
-# Format: One entry per line (IP, domain, or URL)
+# Format: One entry per line (IP)
 # Last updated: 2025-06-05 12:00 CST
 # Entries below are automatically parsed by FortiGate
 
