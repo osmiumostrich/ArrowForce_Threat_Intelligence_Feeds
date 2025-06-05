@@ -11,8 +11,10 @@ Also, be sure to add the feed you've created for domains to your DNS filter/poli
 3. Click **Create New** → **Threat Feed**
 4. Choose **Type**: `IP Address` *(or `Domain`, depending on your feed)*
 5. **Feed URL**: Paste your raw GitHub link
-https://raw.githubusercontent.com/osmiumostrich/Threat_Intelligence_Feeds/refs/heads/main/domainsblacklist.txt 
-OR 
+https://raw.githubusercontent.com/osmiumostrich/Threat_Intelligence_Feeds/refs/heads/main/domainsblacklist.txt
+
+OR
+ 
 https://raw.githubusercontent.com/osmiumostrich/Threat_Intelligence_Feeds/refs/heads/main/blacklist.txt
 7. Set **Refresh Interval**: e.g., every `60` minutes
 8. Enable **Status** and save the connector
