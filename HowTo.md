@@ -1,4 +1,4 @@
-## NOTE: this process is practically the same for blocking bad domain names,
+## NOTE: this process is practically the same for blocking bad domain names, but there is an extra step with domains (adding blacklist to dns filter).
 just replace blacklist.txt with domainsblacklist.txt (`and IMPORTANT: URLs!`) when configuring the threat intelligence feed, and create a 'domain' feed, istead of 'IP'.
 Also, be sure to add the feed you've created for domains to your DNS filter/policies 😊
 
@@ -38,6 +38,16 @@ You can use this object in firewall policies just like any other address.
 4. Move the policy to the **top of the rule list**
 5. Click **OK** to save
 
+---
+## How to configure the DNS filter for blocking Domains with the domainsblacklist.txt file.
+Note: See step 1 for configuring the external threat feed connector before proceeding.
+1. Navigate to **Security Profiles** Then **DNS Filter**
+2. Open the default DNS filter or **Create New**
+3. Turn on Category Based Filtering.
+4. Scroll down until you see a category called **Remote Categories**
+5. You should see your threat feed address object that you created earlier.
+6. Change the category to **Redirect to Block Portal**
+Note: You must have DNS filtering enabled & applied to a firewall poclicy, if you don't have this the threat feed is useless!
 ---
 
 ## 📝 Adding Entries to the Feed
