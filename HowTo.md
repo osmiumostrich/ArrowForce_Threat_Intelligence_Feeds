@@ -39,7 +39,7 @@ You can use this object in firewall policies just like any other address.
 5. Click **OK** to save
 
 ---
-## How to configure the DNS filter for blocking Domains with the domainsblacklist.txt file.
+### 4. 🌐 How to configure the DNS filter for blocking Domains with the domainsblacklist.txt file.
 Note: See step 1 for configuring the external threat feed connector before proceeding.
 1. Navigate to `Security Profiles` Then `DNS Filter`
 2. Open the **Default DNS filter** or `Create New`
@@ -49,7 +49,3 @@ Note: See step 1 for configuring the external threat feed connector before proce
 6. Change the category to `Redirect to Block Portal`
 Note: You must have DNS filtering enabled & applied to a firewall poclicy, if you don't have this the threat feed is useless!
 ---
-
-## 📝 Adding Entries to the Feed
-
-Each entry in `blacklist.txt` must be on its own line. Supported formats include:
