@@ -10,7 +10,7 @@ This feed is designed to be **used directly by FortiGate firewalls** via the Ext
 ## 📄 Contents
 
 - `blacklist.txt` — the list of IPs to block (one per line)
-- `README.md` — documentation and setup guide (this file)
+- `HowTo.md` — documentation and setup guide
 - `domainsblacklist.txt` - the list of domains to block (one per line)
 
 ## 🌐 Feed URLs
