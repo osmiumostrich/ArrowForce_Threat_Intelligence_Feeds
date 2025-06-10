@@ -41,12 +41,12 @@ You can use this object in firewall policies just like any other address.
 ---
 ## How to configure the DNS filter for blocking Domains with the domainsblacklist.txt file.
 Note: See step 1 for configuring the external threat feed connector before proceeding.
-1. Navigate to **Security Profiles** Then **DNS Filter**
-2. Open the default DNS filter or **Create New**
-3. Turn on Category Based Filtering.
-4. Scroll down until you see a category called **Remote Categories**
+1. Navigate to `Security Profiles` Then `DNS Filter`
+2. Open the **Default DNS filter** or `Create New`
+3. Turn on **Category Based Filtering**.
+4. Scroll down until you see a category called `Remote Categories`
 5. You should see your threat feed address object that you created earlier.
-6. Change the category to **Redirect to Block Portal**
+6. Change the category to `Redirect to Block Portal`
 Note: You must have DNS filtering enabled & applied to a firewall poclicy, if you don't have this the threat feed is useless!
 ---
 
