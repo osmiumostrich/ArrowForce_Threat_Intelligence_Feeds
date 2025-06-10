@@ -12,6 +12,8 @@ Also, be sure to add the feed you've created for domains to your DNS filter/poli
 4. Choose **Type**: `IP Address` *(or `Domain`, depending on your feed)*
 5. **Feed URL**: Paste your raw GitHub link [blacklist.txt](https://raw.githubusercontent.com/osmiumostrich/Threat_Intelligence_Feeds/refs/heads/main/blacklist.txt) OR [domainsblacklist.txt](https://raw.githubusercontent.com/osmiumostrich/Threat_Intelligence_Feeds/refs/heads/main/domainsblacklist.txt)
 7. Set **Refresh Interval**: e.g., every `60` minutes
+Note: The refresh interval is important, as github has a rate limit for accessing the file (60 per hour based on IP). 
+In this scenario with 2 threat feeds you would be able to add roughly 30 Fortigates to these threat feeds, if blocking IP's only this changes to 60 Fortigates, and so on...
 8. Enable **Status** and save the connector
 
 ---
